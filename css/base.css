@@ -20,6 +20,7 @@ header {
     background-color: #000000;
     color: #ffffff;
     height: 45px;
+    width: 100%; 
 }
 
 header h1 {
@@ -75,6 +76,7 @@ aside {
 
 footer {
     clear: right; 
+    height: 24px; 
     font-size: 12px;
     padding: 0 10px 0 10px;
 }
