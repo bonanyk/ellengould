@@ -93,9 +93,6 @@ footer {
 
 @media screen and (max-width 600px) {
  
-    body {
-        padding 5%;   
-    }
     
     nav {
         width: 100%;
