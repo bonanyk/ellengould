@@ -40,6 +40,7 @@ header {
 }
 
 header h1 {
+    margin-top: 12px;
     float: left;
     font-size: 22px;
     font-weight: 400;
@@ -59,6 +60,16 @@ header a:hover {
 header a:active {
     text-decoration: underline;
 }
+
+nav .base-links {
+    margin-top: 10px;    
+}
+
+nav .social {
+    margin-top: -12px;
+    float: right;
+}
+
 /* More specific article rules */
 
 article {
