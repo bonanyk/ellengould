@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 5px;
     padding: 0;
 }
 
@@ -18,7 +18,7 @@ body {
 	background-color: #ffffff;
 	border:10px;
 	border-style:solid;
-	border-color: grey; 
+	border-color: #6c6a6a; 
 	padding:5px;
 	overflow:auto;
 	}
@@ -30,7 +30,6 @@ p {
 
 
 header {
-    background-image: url(images/dsc_0747actual.jpg);
     color: #ffffff;
     height: 45px;
     width: 100%; 
@@ -38,25 +37,20 @@ header {
 
 header h1 {
     float: left;
-    font-family: helvetica, arial, sans-serif; 
+    font-family: georgia, serif; 
     font-size: 22px;
     font-weight: 400;
     padding: 10px; /* TRouBLe */
 }
 
-header nav {
-    float: left; 
-    margin-top: 12px;
-}
-
 header a {
-    color: #aaaaaa;
+    color: #000000;
     margin-right: 20px;
     text-decoration: none;
 }
 
 header a:hover {
-    color: #ffffff;
+    color: #6c6a6a; /* Found on a color picker website */
 }
 header a:active {
     text-decoration: underline;
