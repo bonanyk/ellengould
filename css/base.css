@@ -59,7 +59,6 @@ header a:hover {
 header a:active {
     text-decoration: underline;
 }
-
 /* More specific article rules */
 
 article {
@@ -78,7 +77,7 @@ article h2 {
     font-size: 28px;
     line-height: 36px; 
     margin-top: 5px;
-    margin bottom: 5px;
+    margin-bottom: 5px;
 }
 
 aside {
