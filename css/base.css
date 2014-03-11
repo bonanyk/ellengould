@@ -15,7 +15,6 @@ body {
 
 #wrapper {
 	width:960px; 
-    height:auto;
 	margin-left:auto;
 	margin-right:auto;
 	background-color: #ffffff;
@@ -23,7 +22,6 @@ body {
 	border-style:solid;
 	border-color: #6c6a6a; 
 	padding:5px;
-    overflow:auto;
 	}
 
 p {
@@ -32,6 +30,11 @@ p {
 }
 
 /* Header Rules */
+
+.banner {
+    width:98%;
+    max-height:100px;
+}
 
 header {
     color: #ffffff;
@@ -70,6 +73,12 @@ nav .social {
     float: right;
 }
 
+.social img {
+    border:0;
+    width:32px;
+    height:32px;
+}
+
 /* More specific article rules */
 
 article {
@@ -98,8 +107,7 @@ aside {
 }
 
 footer {
-    clear: right; 
-    height: 24px; 
+    clear: right;  
     font-size: 12px;
     padding: 0 10px 0 10px;
 }
@@ -107,3 +115,9 @@ footer {
 
 /* More general things at the top and more specific on the bottom */
 /* When talking about height use pxs, width use percents */
+
+@media (max-width: 600px) {
+    #wrapper {
+        width: 95%;
+    }
+}
