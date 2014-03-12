@@ -103,7 +103,7 @@ footer {
     padding: 0 10px 0 10px;
 }
  .pdf {
-    border: clear;
+    border: none;
     height: 132%;
     width: 90%; 
 }
