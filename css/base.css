@@ -102,7 +102,11 @@ footer {
     font-size: 12px;
     padding: 0 10px 0 10px;
 }
-
+ .pdf {
+    border: clear;
+    height: 132%;
+    width: 90%; 
+}
 
 /* More general things at the top and more specific on the bottom */
 /* When talking about height use pxs, width use percents */
