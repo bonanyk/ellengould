@@ -14,7 +14,7 @@ body {
 }
 
 #wrapper {
-	width:960px; 
+	max-width:960px; 
 	margin-left:auto;
 	margin-right:auto;
 	background-color: #ffffff;
@@ -113,6 +113,12 @@ footer {
     width: 68%;
     margin: 0px;
 }
+
+.inline {
+    margin: none; 
+    padding: none;
+}
+
 /* More general things at the top and more specific on the bottom */
 /* When talking about height use pxs, width use percents */
 
