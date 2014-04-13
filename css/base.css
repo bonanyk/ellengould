@@ -25,8 +25,7 @@ body {
 	}
 
 p {
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin 16px 0px 0px 16px;
 }
 
 /* Header Rules */
@@ -118,6 +117,46 @@ footer {
     padding: 0px;
 }
 
+.resume {
+    font-family: times new roman, sans-serif; 
+}
+
+.resume a {
+    color: #000000;
+}
+
+.resume a:hover {
+    text-decoration: none;
+}
+
+h3 { 
+    text-align: center;  
+    font-size: 20px; 
+    margin-bottom: 0px:
+}
+
+/* I need help here */
+
+.resumesubtitle {
+    clear: both; 
+    margin: 0px; 
+    text-align: center; 
+    border-bottom: 40px;
+    border-bottom-color: black;    
+}
+
+.date {
+    float: right; 
+}
+
+li {
+    margin: 0px 25px 0px 25px;
+    font-size: 14px; 
+}
+
+
+    
+    
 /* More general things at the top and more specific on the bottom */
 /* When talking about height use pxs, width use percents */
 
