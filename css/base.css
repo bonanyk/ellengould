@@ -102,10 +102,9 @@ footer {
     padding: 0 10px 0 10px;
 }
 
-
-.contact {
+.right {
     float: right;
-    width: 68%;
+    max-width: 68%; 
     margin: 0px;
 }
 
