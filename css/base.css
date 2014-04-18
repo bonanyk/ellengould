@@ -103,7 +103,7 @@ footer {
     padding: 0 10px 0 10px;
 }
 
-.right {
+.right p {
     float: right;
     max-width: 68%; 
     margin: 0px;
@@ -113,6 +113,15 @@ footer {
     margin: 0px; 
     padding: 0px;
 }
+
+.resources img {
+    float: left; 
+    max-width: 75px;
+    max-height: 75px;
+    margin: 10px 10px 0px 10px;
+    padding: 0px;
+}
+ 
 
 .resume {
     font-family: "times new roman", sans-serif; 
