@@ -74,8 +74,9 @@ article {
     padding: 0 20px 0 20px;
 }
 
+
 article h1 {
-    font-family: helvetica, sans-serif;
+    font-family: "Goudy Bookletter 1911", Georgia, Times, serif;
     font-size: 36px;
     line-height: 44px;
     margin-top: 5px;
@@ -83,7 +84,7 @@ article h1 {
 }
 
 article h2 {
-    font-family: helvetica, sans-serif;
+    font-family: "Goudy Bookletter 1911", Georgia, Times, serif;
     font-size: 28px;
     line-height: 36px; 
     margin-top: 5px;
