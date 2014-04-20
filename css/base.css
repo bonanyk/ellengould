@@ -15,6 +15,7 @@ body {
 
 #wrapper {
 	max-width:960px; 
+	height: auto;
 	margin-left:auto;
 	margin-right:auto;
 	background-color: #ffffff;
@@ -118,7 +119,18 @@ footer {
     padding: 0 10px 0 10px;
 }
 
+.left img {
+	float: left;
+    padding: 0px;
+    max-width: 30%;
+}
 
+.right {
+    float: right;
+    max-width: 67%;
+    margin-left: 0px;
+    padding: 0px;
+}
 
 .inline {
     margin: 0px; 
