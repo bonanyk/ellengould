@@ -128,7 +128,7 @@ footer {
 .right {
     float: right;
     max-width: 67%;
-    margin-left: 0px;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -144,7 +144,9 @@ footer {
     margin: 10px 10px 0px 10px;
     padding: 0px;
 }
- 
+.blog {
+    margin-left: 55px;
+}
 /*Specific resume rules */
 .resume {
     font-family: "times new roman", sans-serif; 
